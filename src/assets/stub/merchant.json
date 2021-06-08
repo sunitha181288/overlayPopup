@@ -1,0 +1,37 @@
+
+[{
+"merchantName" : "MCD",
+"merchantImage" : "assets/images/mcd.png",
+"merchIndustry":"Food",
+"position": 2,
+"offerId": 1
+},
+{
+    "merchantName" : "Wendy's",
+    "merchantImage" : "assets/images/wendy.png",
+    "merchIndustry":"Food",
+    "position": 1,
+    "offerId": 2
+    },
+    {
+        "merchantName" : "PWC",
+        "merchantImage" : "assets/images/pwc.png",
+        "merchIndustry":"Finance",
+        "position": 5,
+        "offerId": 2
+        },
+        {
+            "merchantName" : "Shell",
+            "merchantImage" : "assets/images/shell.png",
+            "merchIndustry":"Petroleum",
+            "position": 4,
+            "offerId": 1
+            },
+            {
+                "merchantName" : "FNP",
+                "merchantImage" : "assets/images/fnp.png",
+                "merchIndustry":"Food",
+                "position": 70,
+                "offerId": 3
+                }
+]

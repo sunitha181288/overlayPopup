@@ -1,0 +1,30 @@
+.merchants {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e2e2e2;
+    color: #191313
+}
+.merchant-card {
+    background-color: #fff;
+    padding: 1rem 1.37rem;
+    display: flex;
+    margin: -10px 20px;
+    .merchant-logo {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+    }
+    .merchant-details {
+        .name {
+            font-size: 1rem;
+            list-style: 24px;
+            margin: 0;
+        }
+        .sub-heading {
+            font-size: 13px;
+            line-height: 20px;
+            color: #767676;
+            margin-bottom: 10px;
+        }
+    }
+}

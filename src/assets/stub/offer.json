@@ -1,0 +1,21 @@
+[{"offerId": 1, 
+    "offerDesc": "5rs offer for 50 rs",
+    "offerStartDate":"03-06-2021",
+    "offerEndDate":"06-07-2021"
+    },
+    {"offerId": 2, 
+        "offerDesc": "10rs offer for 100 rs",
+        "offerStartDate":"03-06-2021",
+        "offerEndDate":"06-07-2021"
+        },
+        {"offerId": 3, 
+            "offerDesc": "15rs offer for 150 rs", 
+            "offerStartDate":"03-06-2021",
+            "offerEndDate":"06-07-2021"
+            },
+            {"offerId": 4, 
+                "offerDesc": "20rs offer for 200 rs",
+                "offerStartDate":"03-06-2021",
+                "offerEndDate":"06-07-2021"
+                }
+]
