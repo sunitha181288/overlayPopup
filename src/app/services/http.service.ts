@@ -21,6 +21,7 @@ export class HttpService {
       console.log(result);
       const filterOffer = result.find((offerItem) => {
         return offerItem.offerId === id;
+        console.log(filterOffer);
       })
       resolve(filterOffer);
 

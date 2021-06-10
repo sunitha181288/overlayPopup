@@ -1,3 +1,18 @@
 .wrapper {
-    position: relative;
+  position: relative;
+}
+
+.modal-close {
+  &::after,
+  &::before {
+    display: none;
+  }
+}
+
+.modal-content {
+  width: 70vw;
+  height: auto;
+  // padding: 50px 105px 50px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 11px -1px rgba(0, 0, 0, 0.5);
 }

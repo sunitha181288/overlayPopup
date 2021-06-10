@@ -10,14 +10,14 @@ import { HttpService } from '@services/http.service';
   styleUrls: ['./merchant-popup.component.scss']
 })
 export class MerchantPopupComponent implements OnInit {
-  constructor(private appOverlayRef : AppOverlayRef , private httpService : HttpService) { }
+  constructor(private appOverlayRef: AppOverlayRef, private httpService: HttpService) { }
   merchantData;
   merchantOffer;
+
   ngOnInit(): void {
     this.merchantData = this.appOverlayRef.data;
     this.loadOffer();
-      }
-  
+  }
   
   async loadOffer() {
     this.merchantOffer = await this.httpService.fetchOffers(this.merchantData.offerId);

@@ -10,7 +10,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .modal-content {
-  pointer-events: all !important;
+  pointer-events: all !important ;
+}
+
+.modal-content {
+  z-index: auto;
+  background-color: white;
 }
 
 /* .modal {
@@ -21,4 +26,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   position: absolute;
   top: -32px;
   right: -32px;
+}
+
+html {
+  overflow-y: hidden !important;
+}
+
+body {
+  overflow-y: auto;
 }
